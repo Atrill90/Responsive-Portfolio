@@ -80,6 +80,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  
 }
 
 nav a {
@@ -214,4 +215,34 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 980px){
+  .main-section{
+    width: 60%;
+    margin: 0 auto;
+    float: none;
+    
+  }
+
+#masthead{
+  width: 100%;
+  margin: 0px auto;
+}
+.main-section img{
+  float: none;
+  width: 100%;
+  
+
+  
+}
+nav{
+  margin-right: 30px;
+}
+
 }
