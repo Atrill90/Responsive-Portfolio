@@ -80,7 +80,6 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
-  
 }
 
 nav a {
@@ -111,7 +110,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -188,15 +188,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -208,7 +208,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
@@ -216,33 +216,69 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+section {
+  background-color: white;
+  padding: 20px;
+  float: right;
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Styles for font awesome */
+.fa-linkedin {
+  color: lightblue;
+  font-size: 3rem;
+}
+
+.fa-github {
+  color: black;
+  font-size: 3rem;
+}
+
+.fa-stack-overflow {
+  color: orange;
+  font-size: 3rem;
+}
+
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media screen and (max-width: 980px){
-  .main-section{
+@media screen and (max-width: 980px) {
+  .main-section {
     width: 60%;
-    margin: 0 auto;
-    float: none;
-    
+    float: left;
   }
+.container{
+  max-width:90%;
+}
+  #masthead {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .main-section img {
+    float: none;
+    width: 100%;
+  }
+  section {
+  }
+  nav {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-section{
+    width:100%;
+  }
+  section{
+    width: 100%;
+  }
+}
 
-#masthead{
-  width: 100%;
-  margin: 0px auto;
-}
-.main-section img{
-  float: none;
-  width: 100%;
-  
-
-  
-}
-nav{
-  margin-right: 30px;
-}
-
-}
