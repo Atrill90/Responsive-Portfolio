@@ -251,6 +251,7 @@ section {
   clear: both;
 }
 
+
 @media screen and (max-width: 980px) {
   .main-section {
     width: 60%;
@@ -267,8 +268,7 @@ section {
     float: none;
     width: 100%;
   }
-  section {
-  }
+  
   nav {
     margin-right: 30px;
   }
@@ -302,7 +302,7 @@ nav{
 }
 .container{
   max-width: 100%;
-  
+
 }
 }
 
